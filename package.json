@@ -2,7 +2,9 @@
   "name": "tienda",
   "version": "0.0.0",
   "type": "module",
+  "homepage": "http://arangojimmy535.github.io/kingsqueens",
   "scripts": {
+    "predeploy": "npm run build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
